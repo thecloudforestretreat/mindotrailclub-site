@@ -48,7 +48,6 @@ h1{max-width:10ch;margin:0 0 18px;color:var(--forest-deep);font-size:clamp(50px,
 .btnPrimary{background:var(--forest);color:var(--white);box-shadow:0 14px 30px rgba(18,63,37,.22)}
 .btnGhost{background:var(--white);color:var(--forest);border:1px solid var(--line)}
 .heroMedia{position:relative;z-index:1;display:grid;place-items:center;padding:52px 48px 52px 24px}
-.heroMedia::before{content:"";position:absolute;width:min(82%,400px);aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.7);box-shadow:0 30px 80px rgba(10,42,24,.12)}
 .heroMedia img{position:relative;width:min(88%,410px);height:auto;aspect-ratio:1;object-fit:contain;filter:drop-shadow(0 18px 24px rgba(10,42,24,.16))}
 
 .section{padding:42px 0}
@@ -74,7 +73,6 @@ h1{max-width:10ch;margin:0 0 18px;color:var(--forest-deep);font-size:clamp(50px,
   .heroCopy{text-align:center;align-items:center;padding-bottom:26px}
   .heroLead{max-width:640px}
   .heroMedia{padding:4px 34px 40px}
-  .heroMedia::before{width:min(72vw,370px)}
   .heroMedia img{width:min(72vw,370px)}
   .valueGrid{grid-template-columns:repeat(2,1fr)}
   .launchBand{align-items:flex-start;flex-direction:column}
@@ -94,7 +92,6 @@ h1{max-width:10ch;margin:0 0 18px;color:var(--forest-deep);font-size:clamp(50px,
   .heroActions{width:100%;flex-direction:column}
   .btn{width:100%}
   .heroMedia{padding:0 20px 30px}
-  .heroMedia::before{width:min(76vw,310px)}
   .heroMedia img{width:min(76vw,310px)}
   .valueGrid{grid-template-columns:1fr}
   .valueCard{display:grid;grid-template-columns:48px 1fr;column-gap:14px}
