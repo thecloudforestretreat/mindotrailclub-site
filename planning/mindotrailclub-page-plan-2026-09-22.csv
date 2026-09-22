@@ -1,0 +1,3 @@
+pair_id,build_phase,priority,decision,page_type,topic_cluster,language,page_path,counterpart_path,page_name,primary_keyword,search_intent,funnel_stage,primary_cta,secondary_cta,schema_types,css_cluster,product_truth_status,implementation_notes
+mtc-home,launch,1,create,homepage,brand,en,/,/es/,Mindo Trail Club,mindo trail club,navigational,awareness,Discover the club,Explore Ecuador,"Organization|WebSite|WebPage",landing,confirmed_brand_only,Temporary launch landing page; no schedules or pricing
+mtc-home,launch,1,create,homepage,brand,es,/es/,/,Mindo Trail Club,mindo trail club,navigational,awareness,Conoce el club,Explora Ecuador,"Organization|WebSite|WebPage",landing,confirmed_brand_only,Paired Spanish launch landing page
