@@ -109,7 +109,7 @@ h1{max-width:10ch;margin:0 0 18px;color:var(--forest-deep);font-size:clamp(50px,
 .eyebrow{margin:0 0 28px;padding:0;border:0;border-radius:0;background:none;color:var(--moss);font-size:11px;letter-spacing:.13em}
 h1{max-width:none;margin:0 0 26px;color:var(--cream);font-size:clamp(58px,7.2vw,102px);font-weight:900;line-height:.94;letter-spacing:-.065em}
 h1>span:not(.heroDot){color:var(--moss)}
-.heroDot{color:#ef8b50}
+.heroDot{display:inline-block;margin-left:.09em;color:var(--trail);letter-spacing:0}
 .heroLead{max-width:440px;color:var(--cream);font-size:clamp(19px,2.2vw,24px);font-weight:600;line-height:1.45}
 .heroPace{margin:10px 0 0;color:#c5d0c7;font-size:15px;line-height:1.6}
 .heroActions{align-items:center;gap:24px;margin-top:28px}
@@ -122,7 +122,7 @@ h1>span:not(.heroDot){color:var(--moss)}
 .trailArt{position:relative;align-self:stretch;justify-self:stretch;min-height:100%;overflow:hidden;background:radial-gradient(ellipse at 75% 25%,#315b36,transparent 75%)}
 .trailContour{position:absolute;width:440px;height:620px;border:1px solid #78935a;border-radius:45% 55% 65% 35% / 60% 30% 70% 40%;transform:rotate(30deg)}
 .contourOne{left:-80px;top:40px}.contourTwo{left:-25px;top:5px;width:330px;height:510px}.contourThree{left:30px;top:-30px;width:220px;height:400px}
-.trailPath{position:absolute;width:170px;height:550px;left:25%;top:5%;border:5px solid #ef8b50;border-top:0;border-bottom:0;border-right:0;border-radius:70% 0 0 40%;transform:rotate(25deg)}
+.trailPath{position:absolute;width:170px;height:550px;left:25%;top:5%;border:5px solid var(--trail);border-top:0;border-bottom:0;border-right:0;border-radius:70% 0 0 40%;transform:rotate(25deg)}
 .trailCoordinates{position:absolute;top:30px;right:26px;color:#c5d7b3;font-size:9px;font-weight:700;letter-spacing:.16em;writing-mode:vertical-rl}
 .trailArtLabel{position:absolute;bottom:30px;left:25px;right:20px;color:var(--moss);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
 .interestPanel{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:48px;padding:36px;border:1px solid var(--line);border-radius:12px;background:#e8eddf}
