@@ -101,7 +101,38 @@ h1{max-width:10ch;margin:0 0 18px;color:var(--forest-deep);font-size:clamp(50px,
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 
-/* Shared club slogan: the trail orange is part of the existing brand palette. */
-.clubSloganBand{background:var(--trail);color:var(--white)}
-.clubSloganBand p{margin-block:0;padding-block:12px;text-align:center;font-family:Montserrat,Inter,sans-serif;font-size:clamp(18px,3vw,24px);font-weight:900;line-height:1.25;letter-spacing:.14em}
-.clubSloganFooter{width:fit-content;max-width:100%;margin:0 auto 26px;padding:12px 22px;border-radius:6px;background:var(--trail);color:var(--white);text-align:center;font-family:Montserrat,Inter,sans-serif;font-size:clamp(17px,2.8vw,21px);font-weight:900;line-height:1.3;letter-spacing:.12em;box-sizing:border-box}
+/* Club campaign hero: bold typography with abstract trail contours, not documentary imagery. */
+.hero{padding:14px 0 28px}
+.heroShell{grid-template-columns:1.25fr .75fr;min-height:620px;background:var(--forest-deep);border:0;border-radius:12px;color:var(--cream);box-shadow:none}
+.heroShell::before{display:none}
+.heroCopy{padding:clamp(30px,5vw,62px)}
+.eyebrow{margin:0 0 28px;padding:0;border:0;border-radius:0;background:none;color:var(--moss);font-size:11px;letter-spacing:.13em}
+h1{max-width:none;margin:0 0 26px;color:var(--cream);font-size:clamp(58px,7.2vw,102px);font-weight:900;line-height:.94;letter-spacing:-.065em}
+h1>span:not(.heroDot){color:var(--moss)}
+.heroDot{color:#ef8b50}
+.heroLead{max-width:440px;color:var(--cream);font-size:clamp(19px,2.2vw,24px);font-weight:600;line-height:1.45}
+.heroPace{margin:10px 0 0;color:#c5d0c7;font-size:15px;line-height:1.6}
+.heroActions{align-items:center;gap:24px;margin-top:28px}
+.btnPrimary{gap:24px;background:var(--trail);color:var(--white);border-radius:5px;box-shadow:none;padding:15px 22px}
+.heroTextLink{display:inline-flex;align-items:center;gap:12px;min-height:48px;color:var(--cream);font-size:13px;font-weight:700}
+.heroTextLink:hover{text-decoration:underline;text-underline-offset:5px}
+.heroTextLink:focus-visible{outline:3px solid var(--moss);outline-offset:5px}
+.heroNote{max-width:370px;margin:25px 0 0;color:#b7c7ba;font-size:11px;line-height:1.6}
+.heroMedia{padding:0;overflow:hidden;border-left:1px solid rgba(169,191,120,.2);background:#123f25}
+.trailArt{position:relative;align-self:stretch;justify-self:stretch;min-height:100%;overflow:hidden;background:radial-gradient(ellipse at 75% 25%,#315b36,transparent 75%)}
+.trailContour{position:absolute;width:440px;height:620px;border:1px solid #78935a;border-radius:45% 55% 65% 35% / 60% 30% 70% 40%;transform:rotate(30deg)}
+.contourOne{left:-80px;top:40px}.contourTwo{left:-25px;top:5px;width:330px;height:510px}.contourThree{left:30px;top:-30px;width:220px;height:400px}
+.trailPath{position:absolute;width:170px;height:550px;left:25%;top:5%;border:5px solid #ef8b50;border-top:0;border-bottom:0;border-right:0;border-radius:70% 0 0 40%;transform:rotate(25deg)}
+.trailCoordinates{position:absolute;top:30px;right:26px;color:#c5d7b3;font-size:9px;font-weight:700;letter-spacing:.16em;writing-mode:vertical-rl}
+.trailArtLabel{position:absolute;bottom:30px;left:25px;right:20px;color:var(--moss);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.interestPanel{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:48px;padding:36px;border:1px solid var(--line);border-radius:12px;background:#e8eddf}
+.interestPanel h2{font-size:clamp(28px,3.5vw,40px)}
+.interestNote{margin:14px 0 0;font-size:11px;line-height:1.65;color:var(--muted)}
+.interestOptions{display:grid;gap:10px}
+.interestChoice{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:54px;padding:15px 18px;background:var(--forest);color:white;border-radius:5px;font-size:14px;font-weight:800}
+.interestChoice:hover{background:var(--forest-deep)}
+.interestChoice:focus-visible{outline:3px solid var(--trail);outline-offset:3px}
+.clubSloganFooter{margin:0 0 25px;color:var(--forest);font-family:Montserrat,Inter,sans-serif;font-size:clamp(20px,3vw,30px);font-weight:900;line-height:1.1;letter-spacing:-.04em;text-align:center}
+.section{scroll-margin-top:20px}
+@media(max-width:850px){.heroShell{grid-template-columns:1fr;min-height:0}.heroCopy{align-items:flex-start;text-align:left;padding:36px}.heroMedia{display:none}.heroLead{max-width:550px}h1{font-size:clamp(64px,11vw,96px)}.interestPanel{gap:24px;grid-template-columns:1fr}}
+@media(max-width:560px){.hero{padding-top:8px}.heroCopy{padding:34px 24px}.eyebrow{font-size:10px;margin-bottom:26px}h1{font-size:clamp(55px,16vw,82px)}.heroActions{flex-direction:row;width:auto;gap:18px}.heroActions .btn{width:auto}.heroTextLink{font-size:12px}.heroNote{font-size:11px}.interestPanel{padding:25px 22px}.section{padding:30px 0}}
